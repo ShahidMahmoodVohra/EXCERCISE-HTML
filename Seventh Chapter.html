@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+<form>
+<fieldset>   
+<legend>Your Detalis:</legend>     
+<label  for="Name">Name:</label>     
+<input id="Name" type="text"/>  <br />
+<label for="email">Email:</label>
+<input id="email" type="email" />
+</fieldset>
+
+<fieldset>
+<legend> Your Review:</legend>
+<p> How did you hear about us ?
+<select multiple size="1">
+<option>Google</option>   
+<option>Friend</option>
+<option>Ismail</option>
+<option>Other</option> 
+</select></p> 
+<p>
+Would you visit again ? <br />
+<label for="yes">Yes </label>  
+<input id="yes" type="radio" name="gender" value="yes"  /> 
+<label for="no">No</label>
+<input id="no" type="radio" name="gender" value="no"/>
+<label for="maybe">May be</label>
+<input id="maybe" type="radio" name="gender"value="may be"/>
+</p>
+<p>Comments:</p>
+<textarea rows="5px" cols="50px"></textarea> <br />
+
+<input id="right" type="checkbox" checked="checked" />
+Sign me up for email updates <br />
+
+<input  type="submit" value="submit review" />
+
+</fieldset>
+ 
+</form>    
+    
+</body>
+</html>
